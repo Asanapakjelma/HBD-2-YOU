@@ -42,7 +42,7 @@ function App() {
                     </div>
                 </div>
                 <p className="subtitle luxury-subtitle">
-                    Milad Mubarak! Semoga Allah memanjangkan usiamu dalam keberkahan,diberikan rezeki yang berlimpah, memberikan kebahagiaan tiada henti, dan senyum manismu selalu menjadi inspirasi. <span role="img" aria-label="love">💖</span>
+                    Semoga harimu penuh kebahagiaan, cinta, dan keajaiban. <span role="img" aria-label="love">💖</span>
                 </p>
                 <div className="cake luxury-cake">
                     <img src={process.env.PUBLIC_URL + "/cake.png"} alt="Luxury Birthday Cake" className="cake-image" />

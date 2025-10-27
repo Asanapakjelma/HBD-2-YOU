@@ -21,7 +21,7 @@ function App() {
 
     return (
         <div className="luxury-bg">
-            <audio ref={audioRef} src="/birthday.mp3" autoPlay loop />
+            <audio ref={audioRef} src={process.env.PUBLIC_URL + "/birthday.mp3"} autoPlay loop />
             <div className="birthday-container luxury-card">
                 <div className="luxury-glow"></div>
                 <div className="title-container">
@@ -45,7 +45,7 @@ function App() {
                     Semoga harimu penuh kebahagiaan, cinta, dan keajaiban. <span role="img" aria-label="love">💖</span>
                 </p>
                 <div className="cake luxury-cake">
-                    <img src="/cake.png" alt="Luxury Birthday Cake" className="cake-image" />
+                    <img src={process.env.PUBLIC_URL + "/cake.png"} alt="Luxury Birthday Cake" className="cake-image" />
                     <div className="cake-sparkles"></div>
                 </div>
                 <div className="luxury-footer">With all my heart, just for you.</div>
